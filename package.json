@@ -1,0 +1,38 @@
+{
+  "name": "jquery-form-generator",
+  "title": "From generator",
+  "description": "From generator",
+  "version": "0.0.1",
+  "main": "dist/jquery-form-generator.js",
+  "author": {
+    "name": "ICUDROID",
+    "email": "icudroid@gmail.com",
+    "url": "http://"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "bower": "~1.5.3",
+    "grunt-cli": "~0.1.13",
+    "grunt-concat-sourcemap": "^0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-cssmin": "~0.14.0"
+  },
+  "scripts": {
+    "build": "npm install && bower install && grunt",
+    "start": "grunt watch",
+    "test": "grunt"
+  }
+}
