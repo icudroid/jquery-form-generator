@@ -1,0 +1,10 @@
+dist/
+bower_components/
+node_modules/
+example/assets/global/plugins/
+.idea
+*.iml
+*.ipr
+*.iws
+*.ids
+
